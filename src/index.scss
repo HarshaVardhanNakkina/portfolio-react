@@ -1,0 +1,34 @@
+@import 'variables';
+
+// font-family: 'Alegreya', serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'David Libre', serif;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: $bg-primary;
+
+	&::-webkit-scrollbar {
+		width: 0.5rem;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: $text-secondary;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: $text-primary;
+		border-radius: 10px;
+	}
+}
+
+.highlight {
+	color: $text-highlight;
+}
+a {
+	text-decoration: underline dotted;
+}

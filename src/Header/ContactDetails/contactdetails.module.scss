@@ -1,0 +1,47 @@
+@import '../../variables';
+
+.contact_details {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 2rem 0 1rem 0;
+	width: max-content;
+}
+
+.contact_item {
+	// width: 3rem;
+	// padding: 3px 7px;
+	// border-radius: 5px;
+	// margin: 0 10px;
+	// background-color: $bg-dark;
+	// transition: background-color 200ms ease-in-out;
+	width: 3rem;
+	padding: 3px 7px;
+	border-radius: 5px;
+	margin: 0 10px;
+	border: 2px solid $text-primary;
+	transition: background-color 200ms ease-in-out;
+	&:hover {
+		// background-color: $text-secondary;
+		background-color: $bg-dark;
+		border: none;
+		.contact_link {
+			svg {
+				color: $text-secondary;
+			}
+		}
+	}
+}
+.contact_link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	transition: color 200ms ease-in-out;
+	svg {
+		width: 100%;
+		// color: $text-secondary;
+		color: $text-primary;
+	}
+}

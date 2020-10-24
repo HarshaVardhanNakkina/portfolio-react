@@ -1,0 +1,23 @@
+@import '../variables';
+// @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Merriweather:wght@400;700&family=Quattrocento:wght@400;700&display=swap');
+.aboutme_container {
+	max-width: 960px;
+	margin: 1rem auto;
+	padding: 0.5rem 1rem;
+	color: $text-primary;
+}
+// font-family: 'Quattrocento', serif;
+// font-family: 'Alegreya', serif;
+.description {
+	font-family: 'David Libre', serif;
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	letter-spacing: 0.07ch;
+}
+
+.experience {
+	margin: 0.5rem 0;
+	border-left: 2px solid gray;
+	padding-left: 5px;
+}

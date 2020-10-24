@@ -1,0 +1,79 @@
+@import '../variables';
+
+.header_container {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+}
+
+.introduction {
+	color: $text-primary;
+	letter-spacing: 0.05ch;
+}
+
+.intro {
+	font-family: 'Merriweather', serif;
+	font-size: 1.8rem;
+	span {
+		background: $text-secondary;
+		padding: 0.5rem;
+		line-height: 1.5;
+	}
+}
+
+.heading {
+	font-size: 3rem;
+	position: relative;
+
+	.hello {
+		animation-name: wave-animation;
+		animation-duration: 2.5s;
+		animation-iteration-count: infinite;
+		transform-origin: 70% 70%;
+		display: inline-block;
+	}
+
+	@keyframes wave-animation {
+		0% {
+			transform: rotate(0deg);
+		}
+		10% {
+			transform: rotate(-10deg);
+		}
+		20% {
+			transform: rotate(12deg);
+		}
+		30% {
+			transform: rotate(-10deg);
+		}
+		40% {
+			transform: rotate(9deg);
+		}
+		50% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+	&::before {
+		width: 0.75em;
+		height: 0.75em;
+		content: '';
+		pointer-events: none;
+		background: $text-secondary;
+		position: absolute;
+		z-index: -10;
+		--translate: -0.5rem;
+		--rotate: 0deg;
+		transform: translateX(var(--translate)) translateY(var(--translate)) rotate(var(--rotate));
+	}
+}
+
+.hrline {
+	height: 5px;
+	width: 75%;
+	background: #1d3557;
+	border-radius: 20px;
+}

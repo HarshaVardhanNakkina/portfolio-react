@@ -1,0 +1,41 @@
+@import '../variables';
+
+.navbar {
+	max-width: 1160px;
+	margin: 0 auto;
+	font-family: 'Alegreya', serif;
+	font-weight: 500;
+	padding: 0 1rem;
+}
+
+.navbar_items_list {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav_item {
+	margin-right: 10px;
+	font-size: 1.1rem;
+	letter-spacing: 0.1ch;
+
+	// &:hover {
+	// 	background: $text-secondary;
+	// 	.nav_link {
+	// 		color: $text-highlight;
+	// 	}
+	// }
+}
+
+.nav_link {
+	color: $text-primary;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	border: 1px solid $text-primary;
+}
+
+.nav_link_active {
+	background: $bg-dark;
+	color: $text-secondary;
+}

@@ -1,0 +1,24 @@
+// // @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Merriweather:wght@400;700&family=Quattrocento:wght@400;700&display=swap');
+
+// @import 'variables';
+
+// // font-family: 'Alegreya', serif;
+// // font-family: 'Merriweather', serif;
+// // font-family: 'Quattrocento', serif;
+
+// * {
+// 	box-sizing: border-box;
+// 	margin: 0;
+// 	padding: 0;
+// }
+
+// body {
+// 	background: $bg-primary;
+// }
+
+// .highlight {
+// 	color: $text-highlight;
+// }
+:global {
+	@import './index.scss';
+}
