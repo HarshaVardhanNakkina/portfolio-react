@@ -31,7 +31,8 @@ const About = () => {
 				,{' '}
 				<a href='https://medium.com/'>
 					<span className='highlight'>medium.com</span>
-				</a>{' '}
+				</a>
+				{', '}
 				and many more great web developers on Twitter and YouTube.
 			</p>
 			<p className={styles.description}>
@@ -45,27 +46,6 @@ const About = () => {
 					<span className='highlight'>hackerrank</span>
 				</a>
 				.
-			</p>
-			<p className={styles.description}>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni necessitatibus
-				sunt dignissimos? Aliquam sint enim assumenda laudantium esse quis rem, nulla alias in
-				eaque, fugiat incidunt magni, at quia. Lorem ipsum dolor, sit amet consectetur
-				adipisicing elit. Nulla hic velit aliquam iste laboriosam consectetur ipsa non nemo
-				harum vero? Voluptate numquam rerum optio dolorem minima consequuntur ipsam animi
-				facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam
-				deleniti, ut a ratione eos fugiat qui dolore debitis enim similique porro excepturi
-				iste maxime nihil, rerum repellat. Consequuntur, assumenda. Libero iusto pariatur
-				soluta quia autem qui ut quae explicabo veritatis! Eveniet eaque veritatis ullam id eos
-				aperiam odit dolor! Tempore reiciendis ad asperiores quo ducimus maxime, reprehenderit
-				eligendi autem. Obcaecati cum at praesentium, nulla nihil earum, molestiae, commodi vel
-				ea incidunt a repellendus nostrum? Qui porro in facere aut, recusandae, ad quidem
-				tempore, saepe deserunt sit veritatis veniam quia. Doloribus quia aspernatur aperiam
-				libero molestiae. Consequatur, aut inventore nam, perspiciatis cupiditate non
-				repellendus cum quasi officia atque quo? Libero excepturi porro dicta, odio ullam ut
-				laborum eum fugiat ratione. Vitae possimus, ducimus debitis voluptatum harum deleniti
-				praesentium odit, enim mollitia accusamus qui pariatur officiis id non perspiciatis
-				molestias nulla voluptates laudantium nostrum incidunt distinctio quidem! Esse vitae
-				saepe recusandae!
 			</p>
 		</section>
 	)

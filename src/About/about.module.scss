@@ -18,6 +18,12 @@
 
 .experience {
 	margin: 0.5rem 0;
-	border-left: 2px solid gray;
-	padding-left: 5px;
+	// border-left: 2px solid gray;
+	// padding-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+	.aboutme_container {
+		margin: 0;
+	}
 }
