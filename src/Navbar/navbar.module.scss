@@ -5,30 +5,20 @@
 	margin: 0 auto;
 	font-family: 'Alegreya', serif;
 	font-weight: 500;
-	padding: 0 1rem;
-}
-
-.navbar_items_list {
+	padding: 0.5rem 1rem;
+	position: sticky;
+	top: 0px;
 	list-style-type: none;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-}
-
-.nav_item {
-	margin-right: 10px;
-	font-size: 1.1rem;
-	letter-spacing: 0.1ch;
-
-	// &:hover {
-	// 	background: $text-secondary;
-	// 	.nav_link {
-	// 		color: $text-highlight;
-	// 	}
-	// }
+	background: white;
 }
 
 .nav_link {
+	margin-right: 10px;
+	font-size: 1.1rem;
+	letter-spacing: 0.1ch;
 	color: $text-primary;
 	text-decoration: none;
 	padding: 0.25rem 0.5rem;

@@ -77,3 +77,10 @@
 	background: #1d3557;
 	border-radius: 20px;
 }
+@media only screen and (max-width: 768px) {
+	.heading {
+		.hello {
+			display: none;
+		}
+	}
+}
