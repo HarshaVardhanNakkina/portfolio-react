@@ -5,7 +5,7 @@ const ContactDetails = () => {
 	return (
 		<ul className={styles.contact_details}>
 			<li className={styles.contact_item}>
-				<a href='' className={styles.contact_link}>
+				<a href='mailto:ngshvardhan@gmail.com' className={styles.contact_link}>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						viewBox='0 0 24 24'
@@ -23,7 +23,7 @@ const ContactDetails = () => {
 			</li>
 
 			<li className={styles.contact_item}>
-				<a href='' className={styles.contact_link}>
+				<a href='https://twitter.com/Ganeshh___' className={styles.contact_link}>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						viewBox='0 0 24 24'
@@ -40,7 +40,7 @@ const ContactDetails = () => {
 			</li>
 
 			<li className={styles.contact_item}>
-				<a href='' className={styles.contact_link}>
+				<a href='https://github.com/HarshaVardhanNakkina' className={styles.contact_link}>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						viewBox='0 0 25 25'

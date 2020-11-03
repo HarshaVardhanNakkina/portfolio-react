@@ -13,8 +13,8 @@ const About = () => {
 				I did my bachelors in Computer Science and Engineering (2014 - 2018).
 			</p>
 			<p className={styles.description + ' ' + styles.experience}>
-				I have been doing &#x2f; learning <span class='highlight'>Web Development</span> for >2
-				years. I have pretty good experience in <span className='highlight'>HTML</span>,{' '}
+				I have been doing &#x2f; learning <span className='highlight'>Web Development</span>{' '}
+				for >2 years. I have pretty good experience in <span className='highlight'>HTML</span>,{' '}
 				<span className='highlight'>CSS</span>,{' '}
 				<span className='highlight'>JavaScript(es6)</span> and{' '}
 				<span className='highlight'>React.js</span>. I have started using{' '}
